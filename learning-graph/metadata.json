@@ -1,0 +1,10 @@
+{
+  "title": "AI for Mechanical Engineers",
+  "description": "An intelligent textbook for first-year mechanical engineering students covering what AI is, data and statistics, machine learning and neural network fundamentals, how generative AI works, prompting and verifying AI output, AI coding assistants, AI in design, simulation, manufacturing and maintenance, and professional ethics.",
+  "creator": "Shannon Seaver",
+  "date": "2026-10-07",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

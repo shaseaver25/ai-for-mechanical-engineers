@@ -1,0 +1,307 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Artificial Intelligence,,FOUND
+2,History of AI,1,FOUND
+3,Turing Test,1|2,FOUND
+4,Rule-Based System,1|6,FOUND
+5,Expert System,4,FOUND
+6,Algorithm,,FOUND
+7,Machine Learning,1|6,FOUND
+8,Deep Learning,7,FOUND
+9,Generative AI,8,FOUND
+10,Narrow AI,1,FOUND
+11,General AI,10,FOUND
+12,AI vs Traditional Programming,4|7,FOUND
+13,Model,7,FOUND
+14,Training a Model,13|16,FOUND
+15,Inference,14,FOUND
+16,Training Data,7,FOUND
+17,AI Hype vs Reality,9|10|11,FOUND
+18,AI in Mechanical Engineering,7|9,FOUND
+19,Automation,1,FOUND
+20,Human-in-the-Loop,19|18,FOUND
+21,Python Programming Language,6,PY
+22,Jupyter Notebook,21,PY
+23,Code Cell,22,PY
+24,Markdown Cell,22,PY
+25,Variable,21,PY
+26,Data Type,25,PY
+27,Integer,26,PY
+28,Floating-Point Number,26,PY
+29,String,26,PY
+30,Boolean,26,PY
+31,Arithmetic Operator,27|28,PY
+32,Comparison Operator,30|31,PY
+33,List,25,PY
+34,Dictionary,33|29,PY
+35,Indexing and Slicing,33,PY
+36,For Loop,33,PY
+37,While Loop,32,PY
+38,Conditional Statement,32,PY
+39,Function,25,PY
+40,Function Parameter,39,PY
+41,Return Value,39,PY
+42,Python Library,21,PY
+43,Import Statement,42,PY
+44,NumPy,43,PY
+45,NumPy Array,44|33,PY
+46,Vectorized Operation,45|31,PY
+47,Matplotlib,43,PY
+48,Line Plot,47|45,PY
+49,Scatter Plot,48,PY
+50,Histogram,47|45,PY
+51,Axis Labels and Units,48|70,PY
+52,Pandas,43,PY
+53,DataFrame,52|34,PY
+54,CSV File,85,PY
+55,Reading a CSV File,53|54,PY
+56,Filtering Data,53|38,PY
+57,Error Message,23,PY
+58,Debugging,57,PY
+59,Comment in Code,23,PY
+60,Floating-Point Precision,28,PY
+61,Engineering Data,62,DATA
+62,Measurement,,DATA
+63,Sensor,62,DATA
+64,Thermocouple,63,DATA
+65,Strain Gauge,63,DATA
+66,Accelerometer,63,DATA
+67,Load Cell,63|65,DATA
+68,Data Acquisition System,63,DATA
+69,Sampling Rate,68,DATA
+70,SI Units,,DATA
+71,Unit Conversion,70,DATA
+72,Dimensional Analysis,71,DATA
+73,Significant Figures,62,DATA
+74,Measurement Error,62,DATA
+75,Accuracy,74,DATA
+76,Precision,74,DATA
+77,Systematic Error,75,DATA
+78,Random Error,76,DATA
+79,Noise,78|63,DATA
+80,Outlier,61,DATA
+81,Missing Data,61,DATA
+82,Data Cleaning,80|81|55,DATA
+83,Data Visualization,61|48,DATA
+84,Time Series Data,61|69,DATA
+85,Tabular Data,61,DATA
+86,Image Data,61,DATA
+87,Dataset,85|86|84,DATA
+88,Statistics,87,STAT
+89,Mean,88,STAT
+90,Median,88,STAT
+91,Variance,89,STAT
+92,Standard Deviation,91,STAT
+93,Range,88,STAT
+94,Probability,,STAT
+95,Probability Distribution,94|50,STAT
+96,Normal Distribution,95|92,STAT
+97,Uniform Distribution,95,STAT
+98,Correlation,49|88,STAT
+99,Correlation Coefficient,98|92,STAT
+100,Correlation vs Causation,98,STAT
+101,Sample Size,88,STAT
+102,Uncertainty,74|92,STAT
+103,Error Bars,102|83,STAT
+104,Normalization,92|89,STAT
+105,Data Bias,87|101,STAT
+106,Feature,87|7,ML
+107,Label,106,ML
+108,Feature Engineering,106|104,ML
+109,Supervised Learning,107|16,ML
+110,Unsupervised Learning,106|16,ML
+111,Reinforcement Learning,7,ML
+112,Regression,109,ML
+113,Linear Regression,112|98,ML
+114,Line of Best Fit,113|49,ML
+115,Slope and Intercept,114,ML
+116,Least Squares,117,ML
+117,Residual,114,ML
+118,Residual Plot,117|49,ML
+119,Polynomial Regression,113,ML
+120,Multiple Linear Regression,113|106,ML
+121,Prediction,113|15,ML
+122,Interpolation,121,ML
+123,Extrapolation,121,ML
+124,Classification,109,ML
+125,Binary Classification,124,ML
+126,Multiclass Classification,124,ML
+127,Decision Boundary,125|49,ML
+128,Logistic Regression,125|113,ML
+129,Decision Tree,124|38,ML
+130,K-Nearest Neighbors,124|49,ML
+131,Clustering,110,ML
+132,K-Means Clustering,131|89,ML
+133,Train-Test Split,87|14,ML
+134,Validation Set,133,ML
+135,Overfitting,133|119,ML
+136,Underfitting,135,ML
+137,Generalization,135,ML
+138,Model Complexity,135|136,ML
+139,Error Metric,117,ML
+140,Mean Absolute Error,139,ML
+141,Root Mean Squared Error,139|92,ML
+142,R-Squared,139|99,ML
+143,Accuracy Metric,124|139,ML
+144,Confusion Matrix,125,ML
+145,False Positive,144,ML
+146,False Negative,144,ML
+147,Precision and Recall,145|146,ML
+148,Class Imbalance,143|147,ML
+149,Scikit-Learn,43|7,ML
+150,Fitting a Model in Python,149|53|133,ML
+151,Hyperparameter,138,ML
+152,Cross-Validation,134|151,ML
+153,Artificial Neuron,8,NN
+154,Weight,153,NN
+155,Bias Term,153,NN
+156,Weighted Sum,154|155,NN
+157,Activation Function,156,NN
+158,ReLU Activation,157,NN
+159,Sigmoid Function,157,NN
+160,Neural Network,157,NN
+161,Input Layer,160,NN
+162,Hidden Layer,160,NN
+163,Output Layer,160,NN
+164,Network Architecture,161|162|163,NN
+165,Loss Function,139|160,NN
+166,Gradient Descent,165,NN
+167,Learning Rate,166|151,NN
+168,Epoch,166,NN
+169,Backpropagation Intuition,166|164,NN
+170,Training Curve,168|135,NN
+171,Convolutional Neural Network,164|86,NN
+172,Parameters in a Network,164|154,NN
+173,GPU Computing,172,NN
+174,Scaling Laws,172|173,NN
+175,Black Box Model,160,NN
+176,Explainability,175,NN
+177,Large Language Model,9|160|178,GENAI
+178,Natural Language Processing,1|29,GENAI
+179,Token,178,GENAI
+180,Tokenization,179,GENAI
+181,Next-Token Prediction,179|177|94,GENAI
+182,Embedding,179,GENAI
+183,Transformer,164|184,GENAI
+184,Attention Mechanism,182,GENAI
+185,Pretraining,177|16,GENAI
+186,Fine-Tuning,185,GENAI
+187,Learning From Human Feedback,186,GENAI
+188,Context Window,179|177,GENAI
+189,Temperature Setting,181,GENAI
+190,Sampling Randomness,189,GENAI
+191,Knowledge Cutoff,185,GENAI
+192,Hallucination,181|191,GENAI
+193,Multimodal Model,177|86,GENAI
+194,Image Generation Model,9|193,GENAI
+195,AI Chatbot,177,GENAI
+196,System Prompt,195|202,GENAI
+197,Retrieval-Augmented Generation,188|192,GENAI
+198,Tool Use by AI,195,GENAI
+199,AI Agent,198,GENAI
+200,Model Limitations,192|190|191,GENAI
+201,Reasoning Model,177|211,GENAI
+202,Prompt,195,PROMPT
+203,Prompt Engineering,202,PROMPT
+204,Prompt Structure,203,PROMPT
+205,Role Prompting,204,PROMPT
+206,Providing Context,204|188,PROMPT
+207,Specifying Constraints,204,PROMPT
+208,Specifying Units,207|70,PROMPT
+209,Output Format Request,204,PROMPT
+210,Few-Shot Prompting,204,PROMPT
+211,Step-by-Step Reasoning,204,PROMPT
+212,Asking for Assumptions,211,PROMPT
+213,Iterative Refinement,203,PROMPT
+214,Follow-Up Question,213,PROMPT
+215,Prompt Template,205|206|207|209,PROMPT
+216,Uploading Files to AI,206|193,PROMPT
+217,Verification,192|200,VERIF
+218,Hand Calculation,217,VERIF
+219,Order-of-Magnitude Estimate,217|71,VERIF
+220,Unit Check,72|217,VERIF
+221,Limiting Case Check,217,VERIF
+222,Sanity Check,219|221,VERIF
+223,Cross-Checking Sources,217,VERIF
+224,Engineering Reference Data,223,VERIF
+225,Free-Body Diagram Check,218,VERIF
+226,Error Propagation,102|218,VERIF
+227,Verification Log,217,VERIF
+228,Trust Calibration,217|200,VERIF
+229,Automation Bias,228|19,VERIF
+230,AI Coding Assistant,195|21,CODE
+231,Code Generation,230|204,CODE
+232,Code Explanation,230,CODE
+233,AI-Assisted Debugging,230|58,CODE
+234,Reading Generated Code,231|39,CODE
+235,Testing Code,234,CODE
+236,Test Case,235,CODE
+237,Assert Statement,236|32,CODE
+238,Edge Case,236|221,CODE
+239,Engineering Calculator Script,231|236|39|218,CODE
+240,Code Refactoring,234,CODE
+241,Code Documentation,59|234,CODE
+242,Version Control,241,CODE
+243,Reproducibility,242|22,CODE
+244,Engineering Design Process,,DESGN
+245,Design Requirements,244,DESGN
+246,Design Variable,245|25,DESGN
+247,Design Space,246,DESGN
+248,Objective Function,246,DESGN
+249,Design Constraint,245|246,DESGN
+250,Optimization,248|249|247,DESGN
+251,Trade-Off,250,DESGN
+252,Multi-Objective Optimization,251,DESGN
+253,Pareto Front,252|49,DESGN
+254,Design Space Exploration,247|250,DESGN
+255,Generative Design,254|9,DESGN
+256,Topology Optimization,250|260,DESGN
+257,Computer-Aided Design,244,DESGN
+258,AI Features in CAD,257|9,DESGN
+259,Simulation,13,DESGN
+260,Finite Element Analysis,259,DESGN
+261,Computational Fluid Dynamics,259,DESGN
+262,Surrogate Model,259|121,DESGN
+263,Design of Experiments,247|87,DESGN
+264,Physics-Informed Model,262|160,DESGN
+265,Manufacturability,244|267,DESGN
+266,Text-to-CAD,258|202,DESGN
+267,Manufacturing Process,,MFG
+268,Quality Control,267|62,MFG
+269,Defect,268,MFG
+270,Computer Vision,86|171,MFG
+271,Image Classification,270|124,MFG
+272,Object Detection,271,MFG
+273,Visual Inspection System,272|269,MFG
+274,Additive Manufacturing,267,MFG
+275,3D-Printing Defect Detection,274|273,MFG
+276,Predictive Maintenance,278|121,MFG
+277,Reactive Maintenance,267,MFG
+278,Preventive Maintenance,277,MFG
+279,Vibration Analysis,66|84,MFG
+280,Frequency Spectrum,279,MFG
+281,Condition Monitoring,279|63,MFG
+282,Anomaly Detection,281|131|80,MFG
+283,Remaining Useful Life,276,MFG
+284,Industrial IoT,68|281,MFG
+285,Digital Twin,284|259,MFG
+286,Engineering Ethics,,PRAC
+287,Code of Ethics,286,PRAC
+288,Professional Responsibility,287,PRAC
+289,Accountability,288,PRAC
+290,Public Safety,287,PRAC
+291,Safety-Critical System,290,PRAC
+292,Failure Mode,291,PRAC
+293,Algorithmic Bias,105|13,PRAC
+294,Intellectual Property,286,PRAC
+295,Confidentiality,294,PRAC
+296,Data Privacy,295|16,PRAC
+297,Academic Integrity,286,PRAC
+298,AI Use Disclosure,297|289,PRAC
+299,Citing AI Assistance,298,PRAC
+300,Environmental Cost of AI,173|286,PRAC
+301,Workforce Impact of AI,19|286,PRAC
+302,AI Regulation,291|296,PRAC
+303,Engineering Judgment,289|228,PRAC
+304,Engineering Report,227|299|83,PRAC
+305,AI-Assisted Workflow,215|227|239|298,PRAC
+306,Capstone Project,303|304|305|255|282|150,PRAC
