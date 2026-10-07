@@ -1,0 +1,15 @@
+{
+  "FOUND": "AI Foundations",
+  "PY": "Python and Jupyter",
+  "DATA": "Engineering Data and Measurement",
+  "STAT": "Statistics and Probability",
+  "ML": "Machine Learning Fundamentals",
+  "NN": "Neural Networks",
+  "GENAI": "Generative AI and LLMs",
+  "PROMPT": "Prompting for Engineering",
+  "VERIF": "Verifying AI Output",
+  "CODE": "AI Coding Assistants",
+  "DESGN": "AI in Design and Simulation",
+  "MFG": "AI in Manufacturing and Maintenance",
+  "PRAC": "Ethics and Professional Practice"
+}
